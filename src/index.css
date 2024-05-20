@@ -1,0 +1,12 @@
+.main-container {
+    background-color: blue;
+    height: 100vh;
+}
+
+.imagen-grande {
+    width: 100%; /* O el tamaño que desees */
+    height: auto; /* Mantiene la proporción */
+    image-rendering: -webkit-optimize-contrast; /* Para navegadores WebKit */
+    image-rendering: crisp-edges; /* Para navegadores modernos */
+    image-rendering: pixelated; /* Para imágenes con pocos píxeles */
+}
